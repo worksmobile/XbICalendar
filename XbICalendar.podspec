@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target  = '15.0'
   spec.ios.framework          = 'CFNetwork'
-  spec.ios.vendored_libraries = 'libical/lib/ical.xcframework'
+  spec.ios.vendored_frameworks = 'libical/lib/ical.xcframework'
   spec.ios.source_files       = 'libical', 'libical/src/**/*.h'
   
 end
