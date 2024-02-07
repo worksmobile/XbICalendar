@@ -54,10 +54,10 @@ popd  >/dev/null
 
 # Move things to their final place
 mkdir -p ../../lib
-cp -f $OUTPUT_DIR/ical.xcframework ../../lib
+mv -f $OUTPUT_DIR/ical.xcframework ../../lib
 mkdir -p ../../src/include
 cp  -f ./build/src/libical/ical.h ../../src/include
-cp  -f ./build/src/libical_ical_export.h ../../src/include
+cp  -f ./src/libical/libical_ical_export.h ../../src/include
 rm -rf ../../zoneinfo
 mv  $OUTPUT_DIR/share/libical/zoneinfo ../../zoneinfo
 
