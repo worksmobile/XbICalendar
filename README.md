@@ -10,12 +10,9 @@ Barely usable for my project.  Need ideas and some help!  Have not published the
 
 ## Installation
 
-### Cocoapods
-Podfile entry:
+### SPM
+Swift package manager is fully supported.
 
-```
-pod 'XbICalendar', :podspec => 'https://raw.githubusercontent.com/libical/XbICalendar/master/XbICalendar.podspec'
-```
 ### Import the Header files into your project source files
 Add `#import "XbICalendar.h"`
 
