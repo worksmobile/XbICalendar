@@ -7,7 +7,7 @@
 //
 
 #import "XbICAddViewController.h"
-#import "XBiCalendar.h"
+#import "XbICalendar.h"
 #import <EventKitUI/EventKitUI.h>
 
 @interface XbICAddViewController ()

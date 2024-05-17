@@ -29,14 +29,14 @@ let package = Package(
             name: "ical",
             path: "libical/lib/ical.xcframework"
         ),
-        .executableTarget(
-            name: "XbICalendarExample",
-            dependencies: [
-                "XbICalendar",
-                "ical",
-            ],
-            path: "XbICalendar/XbICalendarExample"
-        ),
+//        .executableTarget(
+//            name: "XbICalendarExample",
+//            dependencies: [
+//                "XbICalendar",
+//                "ical",
+//            ],
+//            path: "XbICalendar/XbICalendarExample"
+//        ),
         .testTarget(
             name: "XbICalendarTests",
             dependencies: [
