@@ -103,8 +103,9 @@
 
 - (NSString *)filePathForIcsFileName:(NSString *)fileName
 {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    return [bundle pathForResource:fileName ofType:@"ics"];
+    NSBundle *bundle = XbICalendar_XbICalendarTests_SWIFTPM_MODULE_BUNDLE();
+    return [bundle pathForResource:[NSString stringWithFormat:@"TestData/%@", fileName]
+                            ofType:@"ics"];
 }
 
 - (NSString *) filePathForTemporaryDirectoryICSFileName {

@@ -35,7 +35,10 @@ let package = Package(
                 "XbICalendar",
                 "ical",
             ],
-            path: "XbICalendar/XbICalendarTests"
+            path: "XbICalendar/XbICalendarTests",
+            resources: [
+                .copy("TestData"),
+            ]
         ),
     ]
 )
