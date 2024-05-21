@@ -3,7 +3,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "XBICalendar.h"
+#import "XbICalendar.h"
 
 @interface XbICalendarTests : XCTestCase
 

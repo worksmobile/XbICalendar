@@ -7,7 +7,7 @@
 //
 
 #import "XbICViewController.h"
-#import "XBiCalendar.h"
+#import "XbICalendar.h"
 
 @interface XbICViewController ()
 @property (nonatomic, weak) IBOutlet UITextView * descriptionTextView;

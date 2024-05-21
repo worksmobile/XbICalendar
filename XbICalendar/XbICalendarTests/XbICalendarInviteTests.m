@@ -27,8 +27,8 @@
 
 - (void)test_calendar_helper_method
 {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *path = [bundle pathForResource:@"invite" ofType:@"ics"];
+    NSBundle *bundle = XbICalendar_XbICalendarTests_SWIFTPM_MODULE_BUNDLE();
+    NSString *path = [bundle pathForResource:@"TestData/invite" ofType:@"ics"];
     
     XbICVCalendar * vCalendar =  [XbICVCalendar vCalendarFromFile:path];
     XCTAssertNotNil(vCalendar, @"Initialization");
