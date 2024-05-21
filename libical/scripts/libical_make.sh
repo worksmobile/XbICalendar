@@ -2,7 +2,7 @@
 set -o xtrace
 
 # SEE: http://www.smallsharptools.com/downloads/libical/
-PATH="`xcode-select -print-path`:/usr/bin:/usr/bin:/bin:/usr/local/bin"
+PATH="`xcode-select -print-path`:/usr/bin:/usr/bin:/bin:/usr/local/bin:/opt/homebrew/bin"
 
 if [ ! -n "$ARCH" ]; then
     export ARCH=arm64
@@ -86,7 +86,7 @@ find ./src -name \*.a -exec rm {} \;
 mkdir build
 cd build
 rm -rf *
-/opt/homebrew/bin/cmake -DCMAKE_OSX_ARCHITECTURES=$ARCH -DUSE_BUILTIN_TZDATA=true -DCMAKE_INSTALL_PREFIX="$OUTPUT_DIR" ..
+cmake -DCMAKE_OSX_ARCHITECTURES=$ARCH -DUSE_BUILTIN_TZDATA=true -DCMAKE_INSTALL_PREFIX="$OUTPUT_DIR" ..
 make
 
 # copy the files to the arch folder

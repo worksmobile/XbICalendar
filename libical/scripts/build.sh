@@ -19,10 +19,12 @@ LIPO="xcrun -sdk iphoneos lipo"
 command -v cmake >/dev/null 2>&1 || { echo >&2 "cmake required but it's not installed.  Aborting."; exit 1; }
 
 # Download the latest library
-LIBRARY_TAG="v3.0.18"
+LIBRARY_TAG="v1.0.0"
 LIBRARY_TARBALL="libical"
+rm -rf $WORKING_DIR/$LIBRARY_TARBALL
+
 if [ ! -d  ./$LIBRARY_TARBALL ]; then
-  LIBRARY_DISTRO_URL="https://github.com/libical/libical"
+  LIBRARY_DISTRO_URL="https://github.com/worksmobile/libical"
   git clone --branch $LIBRARY_TAG $LIBRARY_DISTRO_URL
 fi
 
@@ -53,6 +55,7 @@ make install
 popd  >/dev/null
 
 # Move things to their final place
+rm -rf ../../lib
 mkdir -p ../../lib
 mv -f $OUTPUT_DIR/ical.xcframework ../../lib
 mkdir -p ../../src/include
