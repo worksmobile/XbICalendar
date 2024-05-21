@@ -136,8 +136,11 @@
     
     [data writeToFile:icsFile atomically:YES];
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:[NSString stringWithFormat:@"%@.ics file created.", self.fileNameTextField.text] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [alert show];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@""
+                                                                   message:[NSString stringWithFormat:@"%@.ics file created.", self.fileNameTextField.text]
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleCancel handler:nil]];
+    [self presentViewController:alert animated:YES completion:NULL];
 }
 
 -(NSString *) icaltimetypeStringFromDate:(id) date {
