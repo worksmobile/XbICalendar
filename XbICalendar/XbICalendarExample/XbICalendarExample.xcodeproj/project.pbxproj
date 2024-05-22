@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734542B22BF75F3F00C66CBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542B12BF75F3F00C66CBB /* AppDelegate.m */; };
+		734542B52BF75F3F00C66CBB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542B42BF75F3F00C66CBB /* SceneDelegate.m */; };
+		734542BB2BF75F3F00C66CBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 734542BA2BF75F3F00C66CBB /* Base */; };
+		734542BD2BF75F4000C66CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734542BC2BF75F4000C66CBB /* Assets.xcassets */; };
+		734542C02BF75F4000C66CBB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 734542BF2BF75F4000C66CBB /* Base */; };
+		734542C32BF75F4000C66CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542C22BF75F4000C66CBB /* main.m */; };
+		734542E32BF75FAB00C66CBB /* XbICAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542D12BF75FAB00C66CBB /* XbICAddViewController.m */; };
+		734542E52BF75FAB00C66CBB /* XbICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542D52BF75FAB00C66CBB /* XbICAppDelegate.m */; };
+		734542E62BF75FAB00C66CBB /* XbICCreatedFileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542D72BF75FAB00C66CBB /* XbICCreatedFileTableViewController.m */; };
+		734542E72BF75FAB00C66CBB /* XbICFileCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542D92BF75FAB00C66CBB /* XbICFileCreateViewController.m */; };
+		734542E82BF75FAB00C66CBB /* XbICFileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542DB2BF75FAB00C66CBB /* XbICFileTableViewController.m */; };
+		734542E92BF75FAB00C66CBB /* XbICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734542DD2BF75FAB00C66CBB /* XbICViewController.m */; };
+		734542EC2BF760AF00C66CBB /* XbICalendar in Resources */ = {isa = PBXBuildFile; fileRef = 734542EB2BF760AF00C66CBB /* XbICalendar */; };
+		734542EF2BF7612000C66CBB /* XbICalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 734542EE2BF7612000C66CBB /* XbICalendar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		734542AD2BF75F3F00C66CBB /* XbICalendarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XbICalendarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734542B02BF75F3F00C66CBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		734542B12BF75F3F00C66CBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		734542B32BF75F3F00C66CBB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		734542B42BF75F3F00C66CBB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		734542BA2BF75F3F00C66CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734542BC2BF75F4000C66CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734542BF2BF75F4000C66CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734542C12BF75F4000C66CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734542C22BF75F4000C66CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		734542C92BF75FAB00C66CBB /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		734542D02BF75FAB00C66CBB /* XbICAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICAddViewController.h; sourceTree = "<group>"; };
+		734542D12BF75FAB00C66CBB /* XbICAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICAddViewController.m; sourceTree = "<group>"; };
+		734542D42BF75FAB00C66CBB /* XbICAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICAppDelegate.h; sourceTree = "<group>"; };
+		734542D52BF75FAB00C66CBB /* XbICAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICAppDelegate.m; sourceTree = "<group>"; };
+		734542D62BF75FAB00C66CBB /* XbICCreatedFileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICCreatedFileTableViewController.h; sourceTree = "<group>"; };
+		734542D72BF75FAB00C66CBB /* XbICCreatedFileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICCreatedFileTableViewController.m; sourceTree = "<group>"; };
+		734542D82BF75FAB00C66CBB /* XbICFileCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICFileCreateViewController.h; sourceTree = "<group>"; };
+		734542D92BF75FAB00C66CBB /* XbICFileCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICFileCreateViewController.m; sourceTree = "<group>"; };
+		734542DA2BF75FAB00C66CBB /* XbICFileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICFileTableViewController.h; sourceTree = "<group>"; };
+		734542DB2BF75FAB00C66CBB /* XbICFileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICFileTableViewController.m; sourceTree = "<group>"; };
+		734542DC2BF75FAB00C66CBB /* XbICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XbICViewController.h; sourceTree = "<group>"; };
+		734542DD2BF75FAB00C66CBB /* XbICViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XbICViewController.m; sourceTree = "<group>"; };
+		734542EB2BF760AF00C66CBB /* XbICalendar */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = XbICalendar; path = ../..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734542AA2BF75F3F00C66CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734542EF2BF7612000C66CBB /* XbICalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734542A42BF75F3F00C66CBB = {
+			isa = PBXGroup;
+			children = (
+				734542EA2BF760A100C66CBB /* Packages */,
+				734542AF2BF75F3F00C66CBB /* XbICalendarExample */,
+				734542AE2BF75F3F00C66CBB /* Products */,
+				734542ED2BF7612000C66CBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		734542AE2BF75F3F00C66CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734542AD2BF75F3F00C66CBB /* XbICalendarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734542AF2BF75F3F00C66CBB /* XbICalendarExample */ = {
+			isa = PBXGroup;
+			children = (
+				734542DE2BF75FAB00C66CBB /* ViewControllers */,
+				734542C92BF75FAB00C66CBB /* Bridge.h */,
+				734542B02BF75F3F00C66CBB /* AppDelegate.h */,
+				734542B12BF75F3F00C66CBB /* AppDelegate.m */,
+				734542B32BF75F3F00C66CBB /* SceneDelegate.h */,
+				734542B42BF75F3F00C66CBB /* SceneDelegate.m */,
+				734542B92BF75F3F00C66CBB /* Main.storyboard */,
+				734542BC2BF75F4000C66CBB /* Assets.xcassets */,
+				734542BE2BF75F4000C66CBB /* LaunchScreen.storyboard */,
+				734542C12BF75F4000C66CBB /* Info.plist */,
+				734542C22BF75F4000C66CBB /* main.m */,
+			);
+			path = XbICalendarExample;
+			sourceTree = "<group>";
+		};
+		734542DE2BF75FAB00C66CBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				734542D02BF75FAB00C66CBB /* XbICAddViewController.h */,
+				734542D12BF75FAB00C66CBB /* XbICAddViewController.m */,
+				734542D42BF75FAB00C66CBB /* XbICAppDelegate.h */,
+				734542D52BF75FAB00C66CBB /* XbICAppDelegate.m */,
+				734542D62BF75FAB00C66CBB /* XbICCreatedFileTableViewController.h */,
+				734542D72BF75FAB00C66CBB /* XbICCreatedFileTableViewController.m */,
+				734542D82BF75FAB00C66CBB /* XbICFileCreateViewController.h */,
+				734542D92BF75FAB00C66CBB /* XbICFileCreateViewController.m */,
+				734542DA2BF75FAB00C66CBB /* XbICFileTableViewController.h */,
+				734542DB2BF75FAB00C66CBB /* XbICFileTableViewController.m */,
+				734542DC2BF75FAB00C66CBB /* XbICViewController.h */,
+				734542DD2BF75FAB00C66CBB /* XbICViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		734542EA2BF760A100C66CBB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				734542EB2BF760AF00C66CBB /* XbICalendar */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		734542ED2BF7612000C66CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734542AC2BF75F3F00C66CBB /* XbICalendarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734542C62BF75F4000C66CBB /* Build configuration list for PBXNativeTarget "XbICalendarExample" */;
+			buildPhases = (
+				734542A92BF75F3F00C66CBB /* Sources */,
+				734542AA2BF75F3F00C66CBB /* Frameworks */,
+				734542AB2BF75F3F00C66CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XbICalendarExample;
+			packageProductDependencies = (
+				734542EE2BF7612000C66CBB /* XbICalendar */,
+			);
+			productName = XbICalendarExample;
+			productReference = 734542AD2BF75F3F00C66CBB /* XbICalendarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734542A52BF75F3F00C66CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					734542AC2BF75F3F00C66CBB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 734542A82BF75F3F00C66CBB /* Build configuration list for PBXProject "XbICalendarExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734542A42BF75F3F00C66CBB;
+			productRefGroup = 734542AE2BF75F3F00C66CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734542AC2BF75F3F00C66CBB /* XbICalendarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734542AB2BF75F3F00C66CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734542EC2BF760AF00C66CBB /* XbICalendar in Resources */,
+				734542BD2BF75F4000C66CBB /* Assets.xcassets in Resources */,
+				734542C02BF75F4000C66CBB /* Base in Resources */,
+				734542BB2BF75F3F00C66CBB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734542A92BF75F3F00C66CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734542E72BF75FAB00C66CBB /* XbICFileCreateViewController.m in Sources */,
+				734542E82BF75FAB00C66CBB /* XbICFileTableViewController.m in Sources */,
+				734542E32BF75FAB00C66CBB /* XbICAddViewController.m in Sources */,
+				734542B22BF75F3F00C66CBB /* AppDelegate.m in Sources */,
+				734542E62BF75FAB00C66CBB /* XbICCreatedFileTableViewController.m in Sources */,
+				734542C32BF75F4000C66CBB /* main.m in Sources */,
+				734542E52BF75FAB00C66CBB /* XbICAppDelegate.m in Sources */,
+				734542B52BF75F3F00C66CBB /* SceneDelegate.m in Sources */,
+				734542E92BF75FAB00C66CBB /* XbICViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		734542B92BF75F3F00C66CBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734542BA2BF75F3F00C66CBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		734542BE2BF75F4000C66CBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734542BF2BF75F4000C66CBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734542C42BF75F4000C66CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		734542C52BF75F4000C66CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734542C72BF75F4000C66CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XbICalendarExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercloud.works.XbICalendarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734542C82BF75F4000C66CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XbICalendarExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercloud.works.XbICalendarExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734542A82BF75F3F00C66CBB /* Build configuration list for PBXProject "XbICalendarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734542C42BF75F4000C66CBB /* Debug */,
+				734542C52BF75F4000C66CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734542C62BF75F4000C66CBB /* Build configuration list for PBXNativeTarget "XbICalendarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734542C72BF75F4000C66CBB /* Debug */,
+				734542C82BF75F4000C66CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		734542EE2BF7612000C66CBB /* XbICalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = XbICalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 734542A52BF75F3F00C66CBB /* Project object */;
+}

@@ -7,7 +7,7 @@
 //
 
 #import "XbICAddViewController.h"
-#import "XBiCalendar.h"
+#import "XbICalendar.h"
 #import <EventKitUI/EventKitUI.h>
 
 @interface XbICAddViewController ()
@@ -67,6 +67,11 @@
     EKEventStore *store = [EKEventStore new];
     [store requestAccessToEntityType:EKEntityTypeEvent completion:^(BOOL granted, NSError *error) {
         if (!granted) {
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@""
+                                                                           message:@"No calendar authority"
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            [alert addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleCancel handler:nil]];
+            [self presentViewController:alert animated:YES completion:NULL];
             return;
         }
         
@@ -79,8 +84,11 @@
         NSError *err = nil;
         [store saveEvent:event span:EKSpanThisEvent commit:YES error:&err];
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"Added event to calendar" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
-        [alert show];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@""
+                                                                       message:@"Added event to calendar"
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleCancel handler:nil]];
+        [self presentViewController:alert animated:YES completion:NULL];
     }];
 }
 
